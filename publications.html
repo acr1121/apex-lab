@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Apex Clinical Research Lab</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Apex<span>CRL</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+    </ul>
+    <div class="nav-hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="page-hero">
+      <p class="eyebrow">Publications</p>
+      <h1>Selected peer-reviewed work</h1>
+      <p>
+        A selection of recent publications from the lab. For a complete list,
+        see our <a href="#" style="color:var(--teal);text-decoration:underline;text-underline-offset:3px;">Google Scholar profile</a>.
+      </p>
+    </div>
+
+    <section class="section">
+
+      <div class="pub-filters">
+        <button class="pub-filter-btn active" data-filter="all">All</button>
+        <button class="pub-filter-btn" data-filter="cv">Cardiovascular</button>
+        <button class="pub-filter-btn" data-filter="pm">Precision Medicine</button>
+        <button class="pub-filter-btn" data-filter="neuro">Neurology</button>
+        <button class="pub-filter-btn" data-filter="epi">Epidemiology</button>
+      </div>
+
+      <div class="pub-list">
+
+        <div class="pub-item" data-category="cv">
+          <div class="pub-year">2026</div>
+          <div class="pub-title">NT-proBNP-guided versus standard diuresis in acute decompensated heart failure: interim analysis of APEX-HEART II</div>
+          <div class="pub-authors">Reyes M, Patel T, Kim J, Washington C, et al.</div>
+          <div class="pub-journal"><em>JAMA Cardiology</em>, 2026. <a href="#">DOI: 10.1001/jamacardio.0000000</a></div>
+        </div>
+
+        <div class="pub-item" data-category="epi">
+          <div class="pub-year">2026</div>
+          <div class="pub-title">Racial disparities in atrial fibrillation detection across 12 US health systems: a retrospective cohort study</div>
+          <div class="pub-authors">Washington C, Kim J, Okafor S, Reyes M.</div>
+          <div class="pub-journal"><em>Circulation: Arrhythmia and Electrophysiology</em>, 2026. <a href="#">DOI: 10.1161/CIRCEP.000000</a></div>
+        </div>
+
+        <div class="pub-item" data-category="pm">
+          <div class="pub-year">2025</div>
+          <div class="pub-title">Polygenic risk score disclosure and statin initiation in primary prevention: design and rationale of the PREDICT-CV trial</div>
+          <div class="pub-authors">García L, Reyes M, Kim J, Takahashi A, et al.</div>
+          <div class="pub-journal"><em>American Heart Journal</em>, 2025. <a href="#">DOI: 10.1016/j.ahj.0000000</a></div>
+        </div>
+
+        <div class="pub-item" data-category="neuro">
+          <div class="pub-year">2025</div>
+          <div class="pub-title">Longitudinal cognitive decline in ambulatory heart failure: findings from the CACD study</div>
+          <div class="pub-authors">Mehta P, Patel T, Reyes M, et al.</div>
+          <div class="pub-journal"><em>JACC: Heart Failure</em>, 2025. <a href="#">DOI: 10.1016/j.jchf.0000000</a></div>
+        </div>
+
+        <div class="pub-item" data-category="cv">
+          <div class="pub-year">2024</div>
+          <div class="pub-title">High-sensitivity troponin I variability in stable outpatients: implications for clinical decision thresholds</div>
+          <div class="pub-authors">Reyes M, Kim J, Patel T, Okafor S.</div>
+          <div class="pub-journal"><em>Circulation</em>, 2024. <a href="#">DOI: 10.1161/CIRCULATIONAHA.0000000</a></div>
+        </div>
+
+        <div class="pub-item" data-category="epi">
+          <div class="pub-year">2024</div>
+          <div class="pub-title">Socioeconomic position and anticoagulation initiation in newly diagnosed atrial fibrillation: an instrumental variable analysis</div>
+          <div class="pub-authors">Kim J, Washington C, Bouchard F, Reyes M.</div>
+          <div class="pub-journal"><em>Annals of Internal Medicine</em>, 2024. <a href="#">DOI: 10.7326/M00-0000</a></div>
+        </div>
+
+        <div class="pub-item" data-category="pm">
+          <div class="pub-year">2023</div>
+          <div class="pub-title">Multi-omics integration identifies novel biomarkers of treatment response in heart failure with preserved ejection fraction</div>
+          <div class="pub-authors">García L, Mehta P, Kim J, Reyes M.</div>
+          <div class="pub-journal"><em>Nature Medicine</em>, 2023. <a href="#">DOI: 10.1038/s41591-000-0000-0</a></div>
+        </div>
+
+        <div class="pub-item" data-category="cv">
+          <div class="pub-year">2023</div>
+          <div class="pub-title">Outcomes of the APEX-HEART I cohort: a prospective study of biomarker trajectories in stable cardiovascular disease</div>
+          <div class="pub-authors">Reyes M, Kim J, et al.</div>
+          <div class="pub-journal"><em>Circulation</em>, 2023. <a href="#">DOI: 10.1161/CIRCULATIONAHA.0000001</a></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="foot-logo">Apex<span>CRL</span></div>
+    <div>Placeholder site — not affiliated with any real institution</div>
+    <div>© 2026 Apex Clinical Research Lab</div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script>
+    // Publication filter
+    const filterBtns = document.querySelectorAll('.pub-filter-btn');
+    const pubItems   = document.querySelectorAll('.pub-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const f = btn.dataset.filter;
+        pubItems.forEach(item => {
+          item.style.display = (f === 'all' || item.dataset.category === f) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
